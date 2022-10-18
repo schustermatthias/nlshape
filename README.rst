@@ -30,7 +30,7 @@ Finally, nlfem can be installed by
   
 Running the Examples from the Paper
 ===================================
-The project contains four configuration files ``ex1_sym.py, ex2_sym.py, ex1_nonsym.py`` and ``ex2_nonsym.py`` that were used for the experiments in Section 5 of the paper.
+The project contains four configuration files ``ex1_sym.py, ex2_sym.py, ex1_nonsym.py`` and ``ex2_nonsym.py`` that were used to obtain the results in Section 5 of the paper.
 In order to test, e.g., ex1_sym.py we just need to change Line 3 of nlshape/main.py to 
 ::
   from ex1_sym.py import configuration
