@@ -1,3 +1,6 @@
+| This is the code for obtaining the results of the paper *Shape optimization for interface identification in nonlocal models* 
+| by V. Schulz, M. Schuster and C. Vollmann that can be found on https://arxiv.org/abs/1909.08884.
+
 Build and Install on Ubuntu
 ===========================
 In order to clone the project do
