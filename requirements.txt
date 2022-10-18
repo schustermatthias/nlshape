@@ -1,0 +1,7 @@
+numpy~=1.21.5
+scipy~=1.8.0
+matplotlib~=3.5.1
+meshio~=4.0.16
+h5py~=2.10.0
+Cython~=0.29.28
+setuptools~=60.2.0

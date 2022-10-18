@@ -1,0 +1,55 @@
+nu: 0.001
+save_results: 1
+l_bfgs: 1
+memory_length: 5
+armijo_const: 0.0001
+target_shape: target_shape
+init_shape: example_1
+number_iterations: 20
+c_per: 0.1
+remesh: 1
+element_size: 0.05
+boundary_label: 3
+interface_label: 12
+alpha: 0.5
+adapt_mu_max: 0
+lambda: 0.0
+mu_min: 0.0
+mu_max: 0.5
+lame_threshold_up: 4
+lame_threshold_down: 1
+adapt_up: 1.2
+adapt_down: 0.8
+source: [100, -10]
+kernel_dependent: 1
+kernel: {'function': 'fractional_shape', 'horizon': 0.1, 'outputdim': 1, 'fractional_s': 0.5}
+nlfem_conf: {'ansatz': 'CG', 'approxBalls': {'method': 'retriangulate', 'isPlacePointOnCap': True}, 'closeElements': 'fractional', 'quadrature': {'outer': {'points': array([[0.33333333, 0.33333333],
+       [0.47014206, 0.47014206],
+       [0.47014206, 0.05971587],
+       [0.05971587, 0.47014206],
+       [0.10128651, 0.10128651],
+       [0.10128651, 0.79742699],
+       [0.79742699, 0.10128651]]), 'weights': array([0.1125    , 0.06619708, 0.06619708, 0.06619708, 0.06296959,
+       0.06296959, 0.06296959])}, 'inner': {'points': array([[0.33333333, 0.33333333],
+       [0.47014206, 0.47014206],
+       [0.47014206, 0.05971587],
+       [0.05971587, 0.47014206],
+       [0.10128651, 0.10128651],
+       [0.10128651, 0.79742699],
+       [0.79742699, 0.10128651]]), 'weights': array([0.1125    , 0.06619708, 0.06619708, 0.06619708, 0.06296959,
+       0.06296959, 0.06296959])}, 'tensorGaussDegree': 5}, 'is_ShapeDerivative': 0, 'verbose': False}
+nlfem_shape_conf: {'ansatz': 'CG', 'approxBalls': {'method': 'retriangulate_shape', 'isPlacePointOnCap': True}, 'closeElements': 'fractional_shape', 'quadrature': {'outer': {'points': array([[0.33333333, 0.33333333],
+       [0.47014206, 0.47014206],
+       [0.47014206, 0.05971587],
+       [0.05971587, 0.47014206],
+       [0.10128651, 0.10128651],
+       [0.10128651, 0.79742699],
+       [0.79742699, 0.10128651]]), 'weights': array([0.1125    , 0.06619708, 0.06619708, 0.06619708, 0.06296959,
+       0.06296959, 0.06296959])}, 'inner': {'points': array([[0.33333333, 0.33333333],
+       [0.47014206, 0.47014206],
+       [0.47014206, 0.05971587],
+       [0.05971587, 0.47014206],
+       [0.10128651, 0.10128651],
+       [0.10128651, 0.79742699],
+       [0.79742699, 0.10128651]]), 'weights': array([0.1125    , 0.06619708, 0.06619708, 0.06619708, 0.06296959,
+       0.06296959, 0.06296959])}, 'tensorGaussDegree': 5}, 'is_ShapeDerivative': 1, 'verbose': False}
