@@ -45,8 +45,8 @@ The raw data which was the result of the tests in Section 5 and used to create t
 
 License
 =======
-nlshape is published under MIT license. Copyright (c) 2022 Matthias Schuster, Christian Vollmann
+nlshape is published under GNU General Public License version 3. Copyright (c) 2022 Matthias Schuster, Christian Vollmann
 
 | Parts of the project are taken from **nlfem** and have been customized.
-| nlfem is published under MIT license. Copyright (c) 2021 Manuel Klar, Christian Vollmann
+| nlfem is published under GNU General Public License version 3. Copyright (c) 2021 Manuel Klar, Christian Vollmann
   
